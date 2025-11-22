@@ -8,6 +8,7 @@
     config.toml: |
       [kubemonkey]
       run_hour = 30
+      run_hour = 9
       start_hour = 10
       end_hour = 16
       blacklisted_namespaces = ["kube-system"]
